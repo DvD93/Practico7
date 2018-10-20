@@ -36,6 +36,7 @@ public class MainActivity extends Activity implements OnClickListener
 		mABM.setOnClickListener(MainActivity.this);
 		mSelect.setOnClickListener(MainActivity.this);
 		mSalir.setOnClickListener(MainActivity.this);
+		"Comprobando que funciona el control de versiones"
 	}
 
 	private void addWidgets()
