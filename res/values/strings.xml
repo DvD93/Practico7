@@ -1,0 +1,35 @@
+<resources>
+
+    <string name="app_name">Practico7</string>
+
+    <string name="seleccione_ejemplo_de_que_tipo_de_control_desea_ver_">Seleccione ejemplo de que tipo de control desea ver:</string>
+
+    <string name="sqliteopenhelper">SQLiteOpenHelper</string>
+
+    <string name="abm">ABM</string>
+
+    <string name="recuperar_registros">Recuperar Registros</string>
+
+    <string name="salir">Salir</string>
+
+    <string name="ranking">Ranking</string>
+
+    <string name="a_o">Año</string>
+
+    <string name="actualizar">Actualizar</string>
+
+    <string name="t_tulo">Título</string>
+
+    <string name="insertar">Insertar</string>
+
+    <string name="eliminar">Eliminar</string>
+
+    <string name="ranking_">Ranking:</string>
+
+    <string name="todas">Todas</string>
+
+    <string name="filtrar">Filtrar</string>
+
+    <string name="textview">TextView</string>
+
+</resources>

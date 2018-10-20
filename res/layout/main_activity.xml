@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/main_activity_Tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seleccione_ejemplo_de_que_tipo_de_control_desea_ver_"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/main_activity_btnHelper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sqliteopenhelper" />
+
+        <Button
+            android:id="@+id/main_activity_btnABM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/abm" />
+
+        <Button
+            android:id="@+id/main_activity_btnSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/recuperar_registros" />
+
+        <Button
+            android:id="@+id/main_activity_btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salir" />
+    </LinearLayout>
+
+</LinearLayout>
